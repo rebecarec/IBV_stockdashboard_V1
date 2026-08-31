@@ -98,7 +98,7 @@ def build_main(ticker, prices):
                  textfont_color="white",
                  marker=dict(size=25),
                  textfont_size=10)
-            fig.add_hline(y=0.10, line_dash="dot", line_width=1, line_color="red", annotation_text="Risco Base 14% SELIC")
+            fig.add_hline(y=0.14, line_dash="dot", line_width=1, line_color="red", annotation_text="Risco Base 14% SELIC")
             fig.layout.yaxis.title = "Retorno Total"
             fig.layout.xaxis.title = "Volatilidade (anualizada)"
             fig.layout.height=800
