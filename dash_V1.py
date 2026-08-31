@@ -112,6 +112,6 @@ with st.sidebar:
     tickers, prices=build_sidebar()
 
 st.title("Análise Interativa Ibovespa Risco e Retorno")
-st.write("Selecione ações no menu lateral para comparação. DISCLAIMER: ")
+st.write("Selecione ações no menu lateral para comparação.")
 if tickers:
     build_main(tickers, prices)
